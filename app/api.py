@@ -47,6 +47,7 @@ def paraphrase(tree: str, limit=20) -> dict:
 
   for i in all_variants[:limit]:
     result["paraphrases"].append({"tree": i})
+    
   # represent to the user in json format
   json_result = json.dumps(result, indent=4, default=str)
   return Response(content=json_result, media_type='application/json')

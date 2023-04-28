@@ -1,6 +1,6 @@
-Code to paraphrase constituency tree in English
+## Code to paraphrase constituency tree in English
 
-To run the code:
+### To run the code:
 1. clone this repository 
 2. intall requirements in the file "requirements.txt"
 3. run python file "main.py"

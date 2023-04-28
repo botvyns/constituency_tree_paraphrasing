@@ -1,6 +1,6 @@
 ## Code to paraphrase constituency tree in English
 
-### To run the code:
+### To check the solution:
 1. clone this repository 
 2. intall requirements in the file [requirements.txt](https://github.com/botvyns/constituency_tree_paraphrasing/blob/master/requirements.txt)
 3. run python file [main.py](https://github.com/botvyns/constituency_tree_paraphrasing/blob/master/main.py)

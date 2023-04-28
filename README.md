@@ -11,5 +11,5 @@
 http://localhost:8080/paraphrase?tree=(S (NP (NP (DT The) (JJ charming) (NNP Gothic) (NNP Quarter) ) (, ,) (CC or) (NP (NNP Barri) (NNP Gòtic) ) ) (, ,) (VP (VBZ has) (NP (NP (JJ narrow) (JJ medieval) (NNS streets) ) (VP (VBN filled) (PP (IN with) (NP (NP (JJ trendy) (NNS bars) ) (, ,) (NP (NNS clubs) ) (CC and) (NP (JJ Catalan) (NNS restaurants) ) ) ) ) ) ) )
 
 
-8. Now you shoul see the output of 20 paraphrased trees
+8. Now you should see the output of 20 paraphrased trees
 9. The code solution itself is available at [api.py](https://github.com/botvyns/constituency_tree_paraphrasing/blob/master/app/api.py)

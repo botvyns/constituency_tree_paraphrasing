@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text input</title>
+</head>
+<body>
+    <h1>Hi! :) <br>Please, type the text for paraphrasing (changing the order of Noun Phrases)</h1>
+
+    <form action="{% url 'result' %}">
+
+    {% csrf_token %}
+
+        TEXT: <input type="text", required name="TEXT"><br><br>
+
+    <input type="submit" name="" value="submit">
+
+    </form>
+</body>
+</html>
